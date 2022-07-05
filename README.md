@@ -15,6 +15,8 @@
     </a>
 </p>
 
+![Laravel API BNI by Kang Yasin](/laravel-api-bni.jpg)
+
 **PACKAGE IN BETA-TEST : UNOFFICIAL BNI API DIGITAL SERVICE**  
 
 Save time and take advantage of a set of dynamical, ready-to-use.
