@@ -1,0 +1,53 @@
+{
+  "name": "Kangyasin/laravel-api-bni",
+  "description": "Laravel package for BNI API Digital Service Unofficial",
+  "keywords": [
+    "laravel-bni",
+    "bni-api",
+    "laravel-api-bni"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kangyasin",
+      "email": "tutorialblogmarine@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Kangyasin\\Bni\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Kangyasin\\Bni\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Kangyasin\\Bni\\Providers\\BniServiceProvider"
+      ],
+      "aliases": {
+        "BniAPI": "Kangyasin\\Bni\\Facades\\BniFacade"
+      }
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.2|^8.0",
+    "Kangyasin/response": "^1.0",
+    "guzzlehttp/guzzle": "^7.2"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "prefer-stable": true,
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
