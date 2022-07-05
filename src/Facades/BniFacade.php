@@ -1,6 +1,6 @@
 <?php
 
-namespace Kangyasin\Bni\Facades;
+namespace kangyasin\Bni\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

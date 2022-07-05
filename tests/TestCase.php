@@ -1,6 +1,6 @@
 <?php
 
-namespace Kangyasin\Bni\Tests;
+namespace kangyasin\Bni\Tests;
 
 use PHPUnit\Framework\TestCase as BaseTestCase;
 

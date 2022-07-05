@@ -1,8 +1,8 @@
 <?php
 
-namespace Kangyasin\Bni\Providers;
+namespace kangyasin\Bni\Providers;
 
-use Kangyasin\Bni\Bni;
+use kangyasin\Bni\Bni;
 use Illuminate\Support\ServiceProvider;
 
 class BniServiceProvider extends ServiceProvider
