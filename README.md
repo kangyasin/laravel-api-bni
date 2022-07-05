@@ -7,9 +7,6 @@
     <a href="https://packagist.org/packages/kangyasin/laravel-api-bni" title="Total Downloads">
         <img src="https://img.shields.io/packagist/dt/kangyasin/laravel-api-bni.svg?style=flat-square" alt="Total Downloads">
     </a>
-    <a href="https://github.com/kangyasin/laravel-api-bni/actions" title="Build Status">
-        <img src="https://github.com/kangyasin/laravel-api-bni/workflows/CI/badge.svg" alt="Build Status">
-    </a>
     <a href="https://coveralls.io/github/kangyasin/laravel-api-bni?branch=main" title="Coverage Status">
         <img src="https://coveralls.io/repos/github/kangyasin/laravel-api-bni/badge.svg?branch=main" alt="Coverage Status">
     </a>
