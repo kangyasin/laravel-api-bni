@@ -1,8 +1,30 @@
 # Laravel Bank BNI Digital Service
 
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/kangyasin/laravel-api-bni.svg?style=flat-square)](https://packagist.org/packages/kangyasin/laravel-api-bni)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkangyasin%2Flaravel-api-bni.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkangyasin97%2Flaravel-api-bni?ref=badge_small)
+<p style="text-align: center;">
+    <a href="https://github.com/kangyasin/laravel-api-bni/releases" title="Latest Stable Version">
+        <img src="https://img.shields.io/github/release/kangyasin/laravel-api-bni.svg?style=flat-square" alt="Latest Stable Version">
+    </a>
+    <a href="https://packagist.org/packages/kangyasin/laravel-api-bni" title="Total Downloads">
+        <img src="https://img.shields.io/packagist/dt/kangyasin/laravel-api-bni.svg?style=flat-square" alt="Total Downloads">
+    </a>
+    <a href="https://github.com/kangyasin/laravel-api-bni/actions" title="Build Status">
+        <img src="https://github.com/kangyasin/laravel-api-bni/workflows/CI/badge.svg" alt="Build Status">
+    </a>
+    <a href="https://coveralls.io/github/kangyasin/laravel-api-bni?branch=main" title="Coverage Status">
+        <img src="https://coveralls.io/repos/github/kangyasin/laravel-api-bni/badge.svg?branch=main" alt="Coverage Status">
+    </a>
+    <a href="/LICENSE.md" title="License: MIT">
+        <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT">
+    </a>
+</p>
+
+**PACKAGE IN BETA-TEST : UNOFFICIAL BNI API DIGITAL SERVICE**  
+
+Save time and take advantage of a set of dynamical, ready-to-use.
+Found this package helpful ? Please consider supporting my work!
+
+[![Donate](https://img.shields.io/badge/Buy_me_a-Ko--fi-ff5f5f.svg)](https://ko-fi.com/kangyasin)
+[![Donate](https://img.shields.io/badge/Donate_on-PayPal-green.svg)](https://paypal.me/kangyasin)
 
 The Laravel Bank BNI package is meant to integrate your Application with Bank BNI (Bank Negara Indonesia) API. For clearer and more complete documentation, please visit the official website [Developer BNI](https://digitalservices.bni.co.id)
 
