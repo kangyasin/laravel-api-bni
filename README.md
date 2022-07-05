@@ -6,6 +6,25 @@
 
 The Laravel Bank BNI package is meant to integrate your Application with Bank BNI (Bank Negara Indonesia) API. For clearer and more complete documentation, please visit the official website [Developer BNI](https://digitalservices.bni.co.id)
 
+## Table of Contents
+
+* [Installation](#installation)
+* [Feature](#feature)
+  * [getBalance()](#get-balance)
+  * [getInHouseInquiry()](#get-inhouse-inquiry)
+  * [doPayment()](#do-payment)
+  * [getPaymentStatus()](#get-payment-status)
+  * [getInterBankInquiry()](#get-interbank-inquiry)
+  * [getInterBankPayment()](#get-interbank-payment)
+
+## Installation
+
+You can install the package via composer:
+
+```bash
+composer require kangyasin/laravel-api-bni
+```
+
 ## Features
 
 This package provides tools for the following, and more:
