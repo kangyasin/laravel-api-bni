@@ -10,13 +10,13 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "kangyasin",
+      "name": "Kangyasin",
       "email": "tutorialblogmarine@gmail.com"
     }
   ],
   "autoload": {
     "psr-4": {
-      "kangyasin\\Bni\\": "src/"
+      "Kangyasin\\Bni\\": "src/"
     },
     "files": [
       "src/helpers.php"
@@ -24,23 +24,23 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "kangyasin\\Bni\\Tests\\": "tests/"
+      "Kangyasin\\Bni\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "kangyasin\\Bni\\Providers\\BniServiceProvider"
+        "Kangyasin\\Bni\\Providers\\BniServiceProvider"
       ],
       "aliases": {
-        "BniAPI": "kangyasin\\Bni\\Facades\\BniFacade"
+        "BniAPI": "Kangyasin\\Bni\\Facades\\BniFacade"
       }
     }
   },
   "minimum-stability": "dev",
   "require": {
     "php": ">=7.2|^8.0",
-    "kangyasin/response": "^1.0",
+    "Kangyasin/response": "^1.0",
     "guzzlehttp/guzzle": "^7.2"
   },
   "config": {

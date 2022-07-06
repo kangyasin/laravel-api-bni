@@ -1,13 +1,13 @@
 <?php
 
-namespace kangyasin\Bni\Traits;
+namespace Kangyasin\Bni\Traits;
 
 trait Token
 {
     /**
      * Get Bni Token
      *
-     * @return \kangyasin\Response\Response
+     * @return \Kangyasin\Response\Response
      */
     public function getToken()
     {

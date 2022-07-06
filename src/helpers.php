@@ -1,6 +1,6 @@
 <?php
 
-use kangyasin\Bni\Bni;
+use Kangyasin\Bni\Bni;
 
 if (!function_exists('bniapi')) {
 

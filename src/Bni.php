@@ -1,12 +1,12 @@
 <?php
 
-namespace kangyasin\Bni;
+namespace Kangyasin\Bni;
 
-use kangyasin\Bni\Modules\OGP;
-use kangyasin\Bni\Traits;
-use kangyasin\Response\Exceptions\ConnectionException;
-use kangyasin\Response\Exceptions\RequestException;
-use kangyasin\Response\Response;
+use Kangyasin\Bni\Modules\OGP;
+use Kangyasin\Bni\Traits;
+use Kangyasin\Response\Exceptions\ConnectionException;
+use Kangyasin\Response\Exceptions\RequestException;
+use Kangyasin\Response\Response;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ConnectException;
 
@@ -62,9 +62,9 @@ class Bni
      * @param  string $httpMethod
      * @param  string $requestUrl
      * @param  array $options
-     * @return \kangyasin\Response\Response
+     * @return \Kangyasin\Response\Response
      *
-     * @throws \kangyasin\Response\Exceptions\RequestException
+     * @throws \Kangyasin\Response\Exceptions\RequestException
      */
     public function sendRequest(string $httpMethod, string $requestUrl, array $data = [])
     {
@@ -121,7 +121,7 @@ class Bni
     /**
      * One Gate Payment
      *
-     * @return \kangyasin\Bni\Modules\OGP
+     * @return \Kangyasin\Bni\Modules\OGP
      */
     public function oneGatePayment()
     {
