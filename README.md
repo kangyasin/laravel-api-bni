@@ -43,7 +43,7 @@ The Laravel Bank BNI package is meant to integrate your Application with Bank BN
 You can install the package via composer:
 
 ```bash
-composer require Kangyasin/laravel-api-bni
+composer require kangyasin/laravel-api-bni
 ```
 
 ## Features

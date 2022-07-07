@@ -37,7 +37,7 @@
       }
     }
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "require": {
     "php": ">=7.2|^8.0",
     "kangyasin/response": "^1.0",
